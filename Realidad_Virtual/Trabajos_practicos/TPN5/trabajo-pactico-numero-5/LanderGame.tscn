@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dbe0isqhmn347"]
+
+[ext_resource type="Script" uid="uid://brue80d8xpy5h" path="res://lander_game.gd" id="1_iohkh"]
+
+[node name="Node2D" type="Node2D" unique_id=1660321953]
+script = ExtResource("1_iohkh")

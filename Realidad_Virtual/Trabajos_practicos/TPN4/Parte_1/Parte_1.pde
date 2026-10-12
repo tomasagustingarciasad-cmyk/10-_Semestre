@@ -116,7 +116,7 @@ class FiguraOriginal {
     pushMatrix();
     noFill();
     stroke(255, 255, 255, 150);
-    strokeWeight(1);
+    strokeWeight(5);
     //sphereDetail(24);
     //sphere(120);
     box(170);
