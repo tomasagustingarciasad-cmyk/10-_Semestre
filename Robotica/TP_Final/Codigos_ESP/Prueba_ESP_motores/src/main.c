@@ -70,6 +70,6 @@ while (true) {
             ets_delay_us(500);
         }
 
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+         vTaskDelay(500 / portTICK_PERIOD_MS);
     }
 }
