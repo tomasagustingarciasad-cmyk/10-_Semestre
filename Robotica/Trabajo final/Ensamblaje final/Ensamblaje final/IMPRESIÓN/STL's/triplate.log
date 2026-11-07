@@ -1,0 +1,28 @@
+Conversión de Solid Edge en STL
+Fecha: lunes,octubre 26,2026 01:45a. m.
+Archivo fuente:C:\Users\Marti\OneDrive\Documentos\Segundo semestre 2026\Robotica 2\R2_nuestro\STL Nuestros\Ensamblaje final\Modelos propios\triplate.par
+Sistema fuente: SOLID EDGE
+
+Hardware:
+Procesador: AMD Ryzen 7 5700X3D 8-Core Processor           
+Sistema operativo: Windows 10
+Memoria instalada: 31,88 GB
+
+Información sobre el software:
+Versión de Parasolid: 38.0.150
+Versión de PSBodyShop: 38.0.111
+Versión del adaptador STL: 1700.0.0
+Versión de Solid Edge: 226.00.01.004 x64
+
+Opciones de exportación de STL:
+Formato de la carpeta de salida:BINARY
+Exportar las piezas visualizadas: Desactivado
+Opción estructural: Monolithic
+Unidades de exportación: Millimeter
+Valor de la tolerancia de exportación:0,001000
+Tipo de tolerancia de exportación: Fine
+Valor del ángulo plano de superficie de exportación:0,523599
+
+Avance en la conversión:
+Se completó el proceso de conversión
+Tiempo necesario para convertir:00 : 00 : 00

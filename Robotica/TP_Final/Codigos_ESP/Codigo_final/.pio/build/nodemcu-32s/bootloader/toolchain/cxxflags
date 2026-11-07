@@ -1,0 +1,7 @@
+"-specs=C:/Users/PC/Desktop/Facultad/10_Semestre/10-_Semestre/Robotica/TP_Final/Codigos_ESP/Codigo_final/.pio/build/nodemcu-32s/bootloader/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+-fno-rtti

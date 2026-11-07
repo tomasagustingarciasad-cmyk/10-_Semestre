@@ -8,16 +8,16 @@
 // DEFINICIÓN DE PINES (Esquema seguro)
 // ==========================================
 // Motor 1
-#define DIR_PIN_1 GPIO_NUM_18
-#define PUL_PIN_1 GPIO_NUM_19
+#define DIR_PIN_1 GPIO_NUM_13
+#define PUL_PIN_1 GPIO_NUM_14
 
 // Motor 2
 #define DIR_PIN_2 GPIO_NUM_16
 #define PUL_PIN_2 GPIO_NUM_17
 
 // Motor 3
-#define DIR_PIN_3 GPIO_NUM_14
-#define PUL_PIN_3 GPIO_NUM_13
+#define DIR_PIN_3 GPIO_NUM_18
+#define PUL_PIN_3 GPIO_NUM_19
 
 // ==========================================
 // CONFIGURACIÓN DE HARDWARE LEDC

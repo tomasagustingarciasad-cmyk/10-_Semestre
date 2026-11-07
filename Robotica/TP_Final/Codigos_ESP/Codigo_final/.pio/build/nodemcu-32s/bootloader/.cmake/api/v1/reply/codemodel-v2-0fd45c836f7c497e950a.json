@@ -1,0 +1,1170 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						39,
+						40,
+						41,
+						42,
+						43,
+						46,
+						47,
+						48,
+						49,
+						50
+					]
+				},
+				{
+					"build" : "esp-idf",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					],
+					"jsonFile" : "directory-esp-idf-23fc10435821ff973a8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf"
+				},
+				{
+					"build" : "esp-idf/xtensa",
+					"jsonFile" : "directory-esp-idf.xtensa-cbf3c7332158b83af6da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/xtensa",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "esp-idf/esp_libc",
+					"jsonFile" : "directory-esp-idf.esp_libc-30290e3173bcea4cea93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_libc"
+				},
+				{
+					"build" : "esp-idf/soc",
+					"jsonFile" : "directory-esp-idf.soc-46cbb637926412f118d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/soc",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "esp-idf/hal",
+					"jsonFile" : "directory-esp-idf.hal-392738583d39ba36a76b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/hal",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_gpio",
+					"jsonFile" : "directory-esp-idf.esp_hal_gpio-8429fb68d676f947f183.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_gpio",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_usb",
+					"jsonFile" : "directory-esp-idf.esp_hal_usb-4748e2e23e40d961b420.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_usb"
+				},
+				{
+					"build" : "esp-idf/esp_hal_pmu",
+					"jsonFile" : "directory-esp-idf.esp_hal_pmu-6969925b61c6b29544a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_pmu",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_regi2c",
+					"jsonFile" : "directory-esp-idf.esp_hal_regi2c-4a3f667c14afbd82ffee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_regi2c"
+				},
+				{
+					"build" : "esp-idf/esp_hal_uart",
+					"jsonFile" : "directory-esp-idf.esp_hal_uart-8d6a8987a48605b834d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_uart",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_dma",
+					"jsonFile" : "directory-esp-idf.esp_hal_dma-4ecf38f9af846e5954ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_dma"
+				},
+				{
+					"build" : "esp-idf/esp_hal_gpspi",
+					"jsonFile" : "directory-esp-idf.esp_hal_gpspi-974f431d80831ce58d62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_gpspi",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_clock",
+					"jsonFile" : "directory-esp-idf.esp_hal_clock-672e7222b0e1c7711678.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_clock",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_mspi",
+					"jsonFile" : "directory-esp-idf.esp_hal_mspi-ba582ebfa3cd98c934cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_mspi",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "esp-idf/esp_blockdev",
+					"jsonFile" : "directory-esp-idf.esp_blockdev-fd3d2ffc61981761599a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_blockdev"
+				},
+				{
+					"build" : "esp-idf/spi_flash",
+					"jsonFile" : "directory-esp-idf.spi_flash-c64104bf7dfa58925d6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/spi_flash",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "esp-idf/esp_bootloader_format",
+					"jsonFile" : "directory-esp-idf.esp_bootloader_format-5f0110f88bdfe33c319e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_bootloader_format",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "esp-idf/esp_app_format",
+					"jsonFile" : "directory-esp-idf.esp_app_format-9ae37b19d3a1628fc340.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_app_format"
+				},
+				{
+					"build" : "esp-idf/partition_table",
+					"jsonFile" : "directory-esp-idf.partition_table-5b9930717ab50e7e7663.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/partition_table"
+				},
+				{
+					"build" : "esp-idf/esptool_py",
+					"jsonFile" : "directory-esp-idf.esptool_py-30a4202dd23af3ce76e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esptool_py"
+				},
+				{
+					"build" : "esp-idf/micro-ecc",
+					"jsonFile" : "directory-esp-idf.micro-ecc-b84f620316c40fe9b692.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "components/micro-ecc",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_timg",
+					"jsonFile" : "directory-esp-idf.esp_hal_timg-758c3e9c689092a5745c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_timg",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_wdt",
+					"jsonFile" : "directory-esp-idf.esp_hal_wdt-83b2accab4e4aab9781d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_wdt",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_i2s",
+					"jsonFile" : "directory-esp-idf.esp_hal_i2s-3bfe63f8ff01c902215e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_i2s",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_ana_conv",
+					"jsonFile" : "directory-esp-idf.esp_hal_ana_conv-4f13f51c626d3f4a7c66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_ana_conv",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_rtc_timer",
+					"jsonFile" : "directory-esp-idf.esp_hal_rtc_timer-e87f7df64f8b2734c9ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_rtc_timer"
+				},
+				{
+					"build" : "esp-idf/esp_hal_security",
+					"jsonFile" : "directory-esp-idf.esp_hal_security-db8104d6a1b2d9d9cd18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_security",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "esp-idf/esp_security",
+					"jsonFile" : "directory-esp-idf.esp_security-46a524260775ca41b9dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_security",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "esp-idf/bootloader_support",
+					"jsonFile" : "directory-esp-idf.bootloader_support-a214340ff5b12edd1b32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/bootloader_support",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "esp-idf/efuse",
+					"jsonFile" : "directory-esp-idf.efuse-31af7f9527b8bf159c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/efuse",
+					"targetIndexes" : 
+					[
+						1,
+						34,
+						35,
+						36,
+						37,
+						38,
+						44,
+						45
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hal_systimer",
+					"jsonFile" : "directory-esp-idf.esp_hal_systimer-1f936f6838fdbb05248c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hal_systimer"
+				},
+				{
+					"build" : "esp-idf/esp_system",
+					"jsonFile" : "directory-esp-idf.esp_system-0e4f1466948bc95e3272.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_system",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hw_support",
+					"childIndexes" : 
+					[
+						34,
+						35,
+						36
+					],
+					"jsonFile" : "directory-esp-idf.esp_hw_support-a2529ae41e1c2adbc7db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hw_support",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hw_support/port/esp32",
+					"jsonFile" : "directory-esp-idf.esp_hw_support.port.esp32-6c549d343f78e12ea726.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32"
+				},
+				{
+					"build" : "esp-idf/esp_hw_support/lowpower",
+					"jsonFile" : "directory-esp-idf.esp_hw_support.lowpower-47eff99c9d29de7f56cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hw_support/lowpower"
+				},
+				{
+					"build" : "esp-idf/esp_hw_support/modem",
+					"jsonFile" : "directory-esp-idf.esp_hw_support.modem-87cd7ac28df2e4204f7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_hw_support/modem"
+				},
+				{
+					"build" : "esp-idf/esp_common",
+					"jsonFile" : "directory-esp-idf.esp_common-baf6d002a29649a157ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_common",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "esp-idf/esp_rom",
+					"jsonFile" : "directory-esp-idf.esp_rom-1218e6b2665eaefe8f34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_rom",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "esp-idf/log",
+					"jsonFile" : "directory-esp-idf.log-c52696859ba5ef360115.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/log",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "esp-idf/bootloader",
+					"jsonFile" : "directory-esp-idf.bootloader-076ef4eb448bd367802b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/bootloader"
+				},
+				{
+					"build" : "esp-idf/esp_stdio",
+					"jsonFile" : "directory-esp-idf.esp_stdio-aade1027853525ccec29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/esp_stdio"
+				},
+				{
+					"build" : "esp-idf/freertos",
+					"jsonFile" : "directory-esp-idf.freertos-37c6c6db4a1af69aa163.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/freertos"
+				},
+				{
+					"build" : "esp-idf/main",
+					"jsonFile" : "directory-esp-idf.main-5bff74fee2a922659b4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						21
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bootloader",
+					"targetIndexes" : 
+					[
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						39,
+						40,
+						41,
+						42,
+						43,
+						46,
+						47,
+						48,
+						49,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					],
+					"name" : "esp-idf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						34,
+						35,
+						36,
+						37,
+						38,
+						44,
+						45
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "__idf_bootloader_support::@d88583f91142925c6676",
+					"jsonFile" : "target-__idf_bootloader_support-fa2bf92e8c4e9e58f682.json",
+					"name" : "__idf_bootloader_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "__idf_efuse::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-__idf_efuse-23447d5fc0d4f80ba3e1.json",
+					"name" : "__idf_efuse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "__idf_esp_bootloader_format::@d2aa1b1547bed85670ee",
+					"jsonFile" : "target-__idf_esp_bootloader_format-2340470c428dd7baa873.json",
+					"name" : "__idf_esp_bootloader_format",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4",
+					"jsonFile" : "target-__idf_esp_common-e329dbb297166704b7da.json",
+					"name" : "__idf_esp_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "__idf_esp_hal_ana_conv::@39e8285db2db855a8cb3",
+					"jsonFile" : "target-__idf_esp_hal_ana_conv-86b1560c9038ccc2ac4d.json",
+					"name" : "__idf_esp_hal_ana_conv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "__idf_esp_hal_clock::@7df5f860d31a56433f44",
+					"jsonFile" : "target-__idf_esp_hal_clock-0b6dbbc40150b5e39d6b.json",
+					"name" : "__idf_esp_hal_clock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "__idf_esp_hal_gpio::@bbad35e9a610d2a2af74",
+					"jsonFile" : "target-__idf_esp_hal_gpio-5ec5b417223bc64ea7cf.json",
+					"name" : "__idf_esp_hal_gpio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "__idf_esp_hal_gpspi::@d16508dabbfa00929b18",
+					"jsonFile" : "target-__idf_esp_hal_gpspi-df00fa872f52c173b442.json",
+					"name" : "__idf_esp_hal_gpspi",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "__idf_esp_hal_i2s::@139b5d4f8e04a8e7dd24",
+					"jsonFile" : "target-__idf_esp_hal_i2s-49f1fae362b1aa3d4bb3.json",
+					"name" : "__idf_esp_hal_i2s",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "__idf_esp_hal_mspi::@91a3d28e224bfd752ee2",
+					"jsonFile" : "target-__idf_esp_hal_mspi-ccaf2c86ffe8d9cb6e42.json",
+					"name" : "__idf_esp_hal_mspi",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "__idf_esp_hal_pmu::@51614fa8d9ee9aac6fda",
+					"jsonFile" : "target-__idf_esp_hal_pmu-5664fce792fc657c25e5.json",
+					"name" : "__idf_esp_hal_pmu",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "__idf_esp_hal_security::@cf877d0c90cb84121b2e",
+					"jsonFile" : "target-__idf_esp_hal_security-1df5e498d9b0f4ee2c10.json",
+					"name" : "__idf_esp_hal_security",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "__idf_esp_hal_timg::@53c473d355018c2d467c",
+					"jsonFile" : "target-__idf_esp_hal_timg-8fca78ad04b19a93fafb.json",
+					"name" : "__idf_esp_hal_timg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "__idf_esp_hal_uart::@ec2e30ced93796620e8c",
+					"jsonFile" : "target-__idf_esp_hal_uart-de1a949ca199e60ff030.json",
+					"name" : "__idf_esp_hal_uart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "__idf_esp_hal_wdt::@b2961a5a9dc46e76b372",
+					"jsonFile" : "target-__idf_esp_hal_wdt-48f8d5b9664298395309.json",
+					"name" : "__idf_esp_hal_wdt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb",
+					"jsonFile" : "target-__idf_esp_hw_support-020ee4802ec7e0a9faf8.json",
+					"name" : "__idf_esp_hw_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "__idf_esp_rom::@c269e361cd87ad81e927",
+					"jsonFile" : "target-__idf_esp_rom-bddf702ed1309151f67c.json",
+					"name" : "__idf_esp_rom",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "__idf_esp_security::@5b2a55663fe2034faa8b",
+					"jsonFile" : "target-__idf_esp_security-6646ff7b499defdac3b5.json",
+					"name" : "__idf_esp_security",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "__idf_esp_system::@874df54e61e20112dfd4",
+					"jsonFile" : "target-__idf_esp_system-f705a3df4cc947459b26.json",
+					"name" : "__idf_esp_system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "__idf_hal::@41c1a00f56cd1e9ede18",
+					"jsonFile" : "target-__idf_hal-795306602538673d5725.json",
+					"name" : "__idf_hal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70",
+					"jsonFile" : "target-__idf_log-3649d77bd45e34ec0e1b.json",
+					"name" : "__idf_log",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "__idf_main::@7368607ed66887415643",
+					"jsonFile" : "target-__idf_main-48d44fa15c7c9b4c3cee.json",
+					"name" : "__idf_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "__idf_micro-ecc::@37158dc68a69c79f835a",
+					"jsonFile" : "target-__idf_micro-ecc-4ada258034405aa5ceef.json",
+					"name" : "__idf_micro-ecc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "__idf_soc::@824f1541829f13857909",
+					"jsonFile" : "target-__idf_soc-1fb65ae781d2cc966f48.json",
+					"name" : "__idf_soc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "__idf_spi_flash::@6f8a8c72478269b2cd60",
+					"jsonFile" : "target-__idf_spi_flash-674c5a92010a10edfa8c.json",
+					"name" : "__idf_spi_flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "__idf_xtensa::@1daaaad7abe597e030f9",
+					"jsonFile" : "target-__idf_xtensa-6d699f31e27361e031d0.json",
+					"name" : "__idf_xtensa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_project_elf_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_project_elf_src-beca60e1bb84dcd1ca87.json",
+					"name" : "_project_elf_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-ead724baa390d91b7013.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bootloader.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bootloader.elf-86cdaca62cdb613553d7.json",
+					"name" : "bootloader.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bootloader_check_size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bootloader_check_size-96ad4d4092b55bb7826d.json",
+					"name" : "bootloader_check_size",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bootloader_memory_ld_in_preprocess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bootloader_memory_ld_in_preprocess-7b2066eba82adf7431ea.json",
+					"name" : "bootloader_memory_ld_in_preprocess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bootloader_sections_ld_in_preprocess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bootloader_sections_ld_in_preprocess-d9851960281035db944b.json",
+					"name" : "bootloader_sections_ld_in_preprocess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config-report::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config-report-61701105b2287f244190.json",
+					"name" : "config-report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "confserver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-confserver-aed4c28880c072dccf51.json",
+					"name" : "confserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "efuse-common-table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse-common-table-4d6595076840a2e62fb4.json",
+					"name" : "efuse-common-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "efuse-custom-table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse-custom-table-e2092cf9b83448232e9f.json",
+					"name" : "efuse-custom-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "efuse_common_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse_common_table-5186cdf7357bd8b4576f.json",
+					"name" : "efuse_common_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "efuse_custom_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse_custom_table-bc586c4abd21c6d7953a.json",
+					"name" : "efuse_custom_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "efuse_test_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse_test_table-7c99e38c465e19d238d9.json",
+					"name" : "efuse_test_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gen_bootloader_binary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gen_bootloader_binary-837187f80122b86c0c5e.json",
+					"name" : "gen_bootloader_binary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gen_project_binary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gen_project_binary-3d67c32d229264113bf5.json",
+					"name" : "gen_project_binary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menuconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menuconfig-d55c67a03e992d440da7.json",
+					"name" : "menuconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "refresh-config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-refresh-config-db50711430fda4589773.json",
+					"name" : "refresh-config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "save-defconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-save-defconfig-8a45167480aa6f8e945a.json",
+					"name" : "save-defconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "show-efuse-table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-show-efuse-table-6bc758d577a05180980a.json",
+					"name" : "show-efuse-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "show_efuse_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-show_efuse_table-4419dc3e9a5b242093f7.json",
+					"name" : "show_efuse_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-size-c4b7f63816bee41c06b7.json",
+					"name" : "size",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "size-components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-size-components-9c8646363a524bf8af98.json",
+					"name" : "size-components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "size-files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-size-files-f367a759f08f04e491c6.json",
+					"name" : "size-files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uf2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uf2-d180f4ea41d02c8660eb.json",
+					"name" : "uf2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uf2-app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uf2-app-b0438e36b06a6d74d3db.json",
+					"name" : "uf2-app",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PC/Desktop/Facultad/10_Semestre/10-_Semestre/Robotica/TP_Final/Codigos_ESP/Codigo_final/.pio/build/nodemcu-32s/bootloader",
+		"source" : "C:/Users/PC/.platformio/packages/framework-espidf/components/bootloader/subproject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

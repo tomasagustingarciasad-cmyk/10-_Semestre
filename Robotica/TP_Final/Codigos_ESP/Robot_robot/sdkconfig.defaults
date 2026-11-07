@@ -1,0 +1,12 @@
+# Valores que el banco necesita. Se aplican SOLO al crear el sdkconfig:
+# si ya existe sdkconfig.nodemcu-32s, borrarlo una vez para que se regenere.
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+# Tick de 1 ms: las esperas de 1 ms del banco dependen de esto (por defecto es 10 ms)
+CONFIG_FREERTOS_HZ=1000
+# Consola por UART0 a 115200
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200
+# Los lazos largos del banco ceden la CPU, pero el watchdog no debe reiniciar en una prueba larga
+CONFIG_ESP_TASK_WDT_PANIC=n
+# Los tests corren dentro de app_main: más pila (por defecto 3,5 kB)
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
