@@ -1,0 +1,30 @@
+{
+  "_comentario": "Catálogo de circuitos. Lo lee convert_circuits.py. Longitudes oficiales en metros; 'horario' es el sentido de giro real; 'margen_muro' es la distancia del borde del asfalto al muro.",
+  "fuente_geojson": "bacinger/f1-circuits (https://github.com/bacinger/f1-circuits), licencia MIT, commit 8094e957 (2026-10-16)",
+  "circuitos": [
+    {"id": "melbourne", "geojson": "au-1953", "nombre": "Circuito de Albert Park", "lugar": "Melbourne, Australia", "longitud": 5278, "horario": true, "medio_ancho": 6.0, "margen_muro": 4.0, "callejero": true},
+    {"id": "shanghai", "geojson": "cn-2004", "nombre": "Circuito Internacional de Shanghái", "lugar": "Shanghái, China", "longitud": 5451, "horario": true, "medio_ancho": 7.0, "margen_muro": 9.0},
+    {"id": "suzuka", "geojson": "jp-1962", "nombre": "Circuito de Suzuka", "lugar": "Suzuka, Japón", "longitud": 5807, "horario": true, "medio_ancho": 6.0, "margen_muro": 7.0, "notas": "Trazado en forma de ocho: en el circuito real un tramo pasa por un puente sobre el otro; acá el cruce es a nivel (los circuitos son planos)."},
+    {"id": "sakhir", "geojson": "bh-2002", "nombre": "Circuito Internacional de Baréin", "lugar": "Sakhir, Baréin", "longitud": 5412, "horario": true, "medio_ancho": 7.0, "margen_muro": 10.0},
+    {"id": "yeda", "geojson": "sa-2021", "nombre": "Circuito de la Corniche de Yeda", "lugar": "Yeda, Arabia Saudita", "longitud": 6174, "horario": false, "medio_ancho": 5.5, "margen_muro": 1.5, "callejero": true},
+    {"id": "miami", "geojson": "us-2022", "nombre": "Autódromo Internacional de Miami", "lugar": "Miami, Estados Unidos", "longitud": 5412, "horario": false, "medio_ancho": 6.0, "margen_muro": 3.0, "callejero": true},
+    {"id": "montreal", "geojson": "ca-1978", "nombre": "Circuito Gilles Villeneuve", "lugar": "Montreal, Canadá", "longitud": 4361, "horario": true, "medio_ancho": 5.5, "margen_muro": 3.0, "callejero": true},
+    {"id": "monaco", "geojson": "mc-1929", "nombre": "Circuito de Mónaco", "lugar": "Montecarlo, Mónaco", "longitud": 3337, "horario": true, "medio_ancho": 4.5, "margen_muro": 1.2, "callejero": true},
+    {"id": "barcelona", "geojson": "es-1991", "nombre": "Circuito de Barcelona-Cataluña", "lugar": "Montmeló, España", "longitud": 4657, "horario": true, "medio_ancho": 6.5, "margen_muro": 9.0},
+    {"id": "spielberg", "geojson": "at-1969", "nombre": "Red Bull Ring", "lugar": "Spielberg, Austria", "longitud": 4318, "horario": true, "medio_ancho": 6.5, "margen_muro": 9.0},
+    {"id": "silverstone", "geojson": "gb-1948", "nombre": "Circuito de Silverstone", "lugar": "Silverstone, Reino Unido", "longitud": 5891, "horario": true, "medio_ancho": 7.0, "margen_muro": 10.0},
+    {"id": "spa", "geojson": "be-1925", "nombre": "Circuito de Spa-Francorchamps", "lugar": "Stavelot, Bélgica", "longitud": 7004, "horario": true, "medio_ancho": 6.5, "margen_muro": 9.0},
+    {"id": "hungaroring", "geojson": "hu-1986", "nombre": "Hungaroring", "lugar": "Mogyoród, Hungría", "longitud": 4381, "horario": true, "medio_ancho": 6.5, "margen_muro": 9.0},
+    {"id": "zandvoort", "geojson": "nl-1948", "nombre": "Circuito de Zandvoort", "lugar": "Zandvoort, Países Bajos", "longitud": 4259, "horario": true, "medio_ancho": 6.0, "margen_muro": 7.0},
+    {"id": "monza", "geojson": "it-1922", "nombre": "Autódromo Nacional de Monza", "lugar": "Monza, Italia", "longitud": 5793, "horario": true, "medio_ancho": 6.5, "margen_muro": 8.0},
+    {"id": "madrid", "geojson": "es-2026", "nombre": "Madring", "lugar": "Madrid, España", "longitud": 5474, "horario": true, "medio_ancho": 6.0, "margen_muro": 2.5, "callejero": true, "notas": "Circuito nuevo de 2026: el trazado de la fuente es el del proyecto publicado; puede diferir en detalles del circuito construido."},
+    {"id": "baku", "geojson": "az-2016", "nombre": "Circuito Urbano de Bakú", "lugar": "Bakú, Azerbaiyán", "longitud": 6003, "horario": false, "medio_ancho": 5.0, "margen_muro": 1.5, "callejero": true},
+    {"id": "singapur", "geojson": "sg-2008", "nombre": "Circuito Urbano de Marina Bay", "lugar": "Singapur", "longitud": 4927, "horario": false, "medio_ancho": 5.0, "margen_muro": 1.5, "callejero": true, "notas": "En la fuente los puntos venían en sentido horario; se invirtieron para respetar el sentido real (antihorario)."},
+    {"id": "austin", "geojson": "us-2012", "nombre": "Circuito de las Américas", "lugar": "Austin, Estados Unidos", "longitud": 5513, "horario": false, "medio_ancho": 7.0, "margen_muro": 10.0},
+    {"id": "mexico", "geojson": "mx-1962", "nombre": "Autódromo Hermanos Rodríguez", "lugar": "Ciudad de México, México", "longitud": 4304, "horario": true, "medio_ancho": 6.5, "margen_muro": 7.0},
+    {"id": "interlagos", "geojson": "br-1940", "nombre": "Autódromo José Carlos Pace (Interlagos)", "lugar": "San Pablo, Brasil", "longitud": 4309, "horario": false, "medio_ancho": 6.5, "margen_muro": 7.0},
+    {"id": "las_vegas", "geojson": "us-2023", "nombre": "Circuito Urbano de Las Vegas", "lugar": "Las Vegas, Estados Unidos", "longitud": 6201, "horario": false, "medio_ancho": 6.0, "margen_muro": 1.5, "callejero": true},
+    {"id": "lusail", "geojson": "qa-2004", "nombre": "Circuito Internacional de Lusail", "lugar": "Lusail, Catar", "longitud": 5419, "horario": true, "medio_ancho": 6.5, "margen_muro": 10.0},
+    {"id": "yas_marina", "geojson": "ae-2009", "nombre": "Circuito de Yas Marina", "lugar": "Abu Dabi, Emiratos Árabes Unidos", "longitud": 5281, "horario": false, "medio_ancho": 6.5, "margen_muro": 7.0}
+  ]
+}

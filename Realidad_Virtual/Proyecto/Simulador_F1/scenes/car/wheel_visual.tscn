@@ -1,0 +1,47 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l8jut"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_mgsvy"]
+material = SubResource("StandardMaterial3D_l8jut")
+top_radius = 0.34
+bottom_radius = 0.34
+height = 0.4
+radial_segments = 24
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t8j85"]
+albedo_color = Color(0.55, 0.57, 0.6, 1)
+metallic = 0.8
+roughness = 0.3
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nsq42"]
+material = SubResource("StandardMaterial3D_t8j85")
+top_radius = 0.2
+bottom_radius = 0.2
+height = 0.41
+radial_segments = 24
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ufsag"]
+albedo_color = Color(0.96, 0.78, 0.08, 1)
+roughness = 0.5
+
+[sub_resource type="BoxMesh" id="BoxMesh_frjbg"]
+material = SubResource("StandardMaterial3D_ufsag")
+size = Vector3(0.42, 0.07, 0.36)
+
+[node name="RuedaVisual" type="Node3D" unique_id=1524313050]
+
+[node name="Neumatico" type="MeshInstance3D" parent="." unique_id=1578910223]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CylinderMesh_mgsvy")
+
+[node name="Llanta" type="MeshInstance3D" parent="." unique_id=336896303]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CylinderMesh_nsq42")
+
+[node name="Marca" type="MeshInstance3D" parent="." unique_id=1183262882]
+mesh = SubResource("BoxMesh_frjbg")

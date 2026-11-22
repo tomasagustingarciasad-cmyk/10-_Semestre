@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="TyreCompound" format=3]
+
+[ext_resource type="Script" path="res://scripts/car/tyre_compound.gd" id="1_dj18j"]
+
+[resource]
+script = ExtResource("1_dj18j")
+id = "lluvia"
+display_name = "Lluvia extrema"
+letter = "L"
+color = Color(0.2, 0.45, 0.95, 1)
+grip_dry = 0.78
+grip_wet = 0.86
+wear_dry = 4.0
+aquaplaning_start_kmh = 280.0
+aquaplaning_full_kmh = 340.0

@@ -1,0 +1,58 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/car/ai_car.gd" id="1_l65xg"]
+[ext_resource type="PackedScene" path="res://scenes/car/car_model.tscn" id="2_wtvmw"]
+[ext_resource type="Script" path="res://scripts/car/car_visual.gd" id="3_jcl6a"]
+[ext_resource type="Script" path="res://scripts/car/spray.gd" id="4_qkpp4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gnso3"]
+size = Vector3(1.9, 0.9, 5.3)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ndh3g"]
+emission_shape = 3
+emission_box_extents = Vector3(0.9, 0.1, 0.3)
+direction = Vector3(0, 1, 0.5)
+spread = 28.0
+initial_velocity_min = 3.0
+initial_velocity_max = 8.0
+gravity = Vector3(0, -2.5, 0)
+scale_max = 2.6
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_813sf"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.86, 0.89, 0.93, 0.14)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="QuadMesh_37obe"]
+material = SubResource("StandardMaterial3D_813sf")
+size = Vector2(1.5, 1.5)
+
+[node name="Rival" type="AnimatableBody3D" unique_id=1232236095]
+collision_layer = 4
+collision_mask = 0
+sync_to_physics = false
+script = ExtResource("1_l65xg")
+
+[node name="Colision" type="CollisionShape3D" parent="." unique_id=1023077779]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0.05)
+shape = SubResource("BoxShape3D_gnso3")
+
+[node name="Modelo" type="Node3D" parent="." unique_id=343206294 instance=ExtResource("2_wtvmw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08, 0)
+script = ExtResource("3_jcl6a")
+
+[node name="Spray" type="GPUParticles3D" parent="." unique_id=641767271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 2.7)
+cast_shadow = 0
+emitting = false
+amount = 90
+lifetime = 1.4
+visibility_aabb = AABB(-30, -5, -30, 60, 20, 60)
+process_material = SubResource("ParticleProcessMaterial_ndh3g")
+draw_pass_1 = SubResource("QuadMesh_37obe")
+script = ExtResource("4_qkpp4")

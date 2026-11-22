@@ -1,0 +1,25 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/car/car_visual.gd" id="1_kky4g"]
+[ext_resource type="PackedScene" path="res://scenes/car/car_visual.tscn" id="2_k0753"]
+[ext_resource type="PackedScene" path="res://scenes/car/wheel_visual.tscn" id="3_u7ajw"]
+
+[node name="ModeloAuto" type="Node3D" unique_id=343206294]
+script = ExtResource("1_kky4g")
+
+[node name="Carroceria" type="Node3D" parent="." unique_id=1790961150 instance=ExtResource("2_k0753")]
+script = ExtResource("1_kky4g")
+
+[node name="Ruedas" type="Node3D" parent="." unique_id=1560337645]
+
+[node name="Rueda0" type="Node3D" parent="Ruedas" unique_id=1524313050 instance=ExtResource("3_u7ajw")]
+transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.26, -1.75)
+
+[node name="Rueda1" type="Node3D" parent="Ruedas" unique_id=626357486 instance=ExtResource("3_u7ajw")]
+transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.26, -1.75)
+
+[node name="Rueda2" type="Node3D" parent="Ruedas" unique_id=24028022 instance=ExtResource("3_u7ajw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.78, 0.26, 1.65)
+
+[node name="Rueda3" type="Node3D" parent="Ruedas" unique_id=1379083878 instance=ExtResource("3_u7ajw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78, 0.26, 1.65)

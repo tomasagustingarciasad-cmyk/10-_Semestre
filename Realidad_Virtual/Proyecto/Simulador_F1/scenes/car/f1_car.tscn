@@ -1,0 +1,116 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/car/f1_car.gd" id="1_kvf5x"]
+[ext_resource type="Resource" path="res://assets/setups/car_setup_default.tres" id="2_amrpj"]
+[ext_resource type="PackedScene" path="res://scenes/car/car_visual.tscn" id="3_25g2j"]
+[ext_resource type="Script" path="res://scripts/car/car_visual.gd" id="4_lu7ml"]
+[ext_resource type="PackedScene" path="res://scenes/car/wheel_visual.tscn" id="5_goa43"]
+[ext_resource type="Script" path="res://scripts/car/camera_rig.gd" id="6_2vend"]
+[ext_resource type="Script" path="res://scripts/car/engine_sound.gd" id="7_jbo8s"]
+[ext_resource type="Script" path="res://scripts/car/spray.gd" id="8_b3jr1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_krk7e"]
+size = Vector3(1.9, 0.5, 5.3)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_2brii"]
+emission_shape = 3
+emission_box_extents = Vector3(0.9, 0.1, 0.3)
+direction = Vector3(0, 1, 0.5)
+spread = 28.0
+initial_velocity_min = 3.0
+initial_velocity_max = 8.0
+gravity = Vector3(0, -2.5, 0)
+scale_max = 2.6
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ae058"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.86, 0.89, 0.93, 0.14)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="QuadMesh_1twxg"]
+material = SubResource("StandardMaterial3D_ae058")
+size = Vector2(1.5, 1.5)
+
+[node name="Auto" type="VehicleBody3D" unique_id=2109108977]
+collision_layer = 2
+collision_mask = 5
+can_sleep = false
+continuous_cd = true
+script = ExtResource("1_kvf5x")
+setup = ExtResource("2_amrpj")
+
+[node name="Colision" type="CollisionShape3D" parent="." unique_id=1603125446]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.33, 0.05)
+shape = SubResource("BoxShape3D_krk7e")
+
+[node name="Carroceria" type="Node3D" parent="." unique_id=1790961150 instance=ExtResource("3_25g2j")]
+script = ExtResource("4_lu7ml")
+
+[node name="RuedaDI" type="VehicleWheel3D" parent="." unique_id=1320471041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.353, -1.75)
+use_as_steering = true
+wheel_radius = 0.34
+
+[node name="Visual" type="Node3D" parent="RuedaDI" unique_id=1524313050 instance=ExtResource("5_goa43")]
+transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="RuedaDD" type="VehicleWheel3D" parent="." unique_id=1496164637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.353, -1.75)
+use_as_steering = true
+wheel_radius = 0.34
+
+[node name="Visual" type="Node3D" parent="RuedaDD" unique_id=581408484 instance=ExtResource("5_goa43")]
+transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="RuedaTI" type="VehicleWheel3D" parent="." unique_id=764748460]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.78, 0.353, 1.65)
+use_as_traction = true
+wheel_radius = 0.34
+
+[node name="Visual" type="Node3D" parent="RuedaTI" unique_id=496033253 instance=ExtResource("5_goa43")]
+
+[node name="RuedaTD" type="VehicleWheel3D" parent="." unique_id=1211557172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78, 0.353, 1.65)
+use_as_traction = true
+wheel_radius = 0.34
+
+[node name="Visual" type="Node3D" parent="RuedaTD" unique_id=2043776331 instance=ExtResource("5_goa43")]
+
+[node name="Camaras" type="Node3D" parent="." unique_id=1195038352]
+script = ExtResource("6_2vend")
+
+[node name="CamaraPersecucion" type="Camera3D" parent="Camaras" unique_id=1493599843]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7, 7.5)
+fov = 68.0
+near = 0.2
+far = 2500.0
+
+[node name="CamaraOnboard" type="Camera3D" parent="Camaras" unique_id=1901014905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.62, -0.1)
+fov = 82.0
+far = 2500.0
+
+[node name="CamaraT" type="Camera3D" parent="Camaras" unique_id=1657645144]
+transform = Transform3D(1, 0, 0, 0, 0.98768836, 0.15643448, 0, -0.15643448, 0.98768836, 0, 1.06, -0.02)
+fov = 78.0
+near = 0.1
+far = 2500.0
+
+[node name="SonidoMotor" type="AudioStreamPlayer" parent="." unique_id=748543540]
+script = ExtResource("7_jbo8s")
+
+[node name="Spray" type="GPUParticles3D" parent="." unique_id=1205376583]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 2.7)
+cast_shadow = 0
+emitting = false
+amount = 90
+lifetime = 1.4
+visibility_aabb = AABB(-30, -5, -30, 60, 20, 60)
+process_material = SubResource("ParticleProcessMaterial_2brii")
+draw_pass_1 = SubResource("QuadMesh_1twxg")
+script = ExtResource("8_b3jr1")

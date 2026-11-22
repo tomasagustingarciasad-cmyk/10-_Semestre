@@ -1,0 +1,22 @@
+# Godot 4+: caché de importación y datos del editor (se regeneran solos)
+.godot/
+/android/
+*.translation
+
+# Exportaciones
+/build/
+/export/
+*.pck
+*.exe
+*.x86_64
+
+# Python (herramientas de tools/)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/

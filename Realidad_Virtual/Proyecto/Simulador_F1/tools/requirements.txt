@@ -1,0 +1,4 @@
+# Dependencias de las herramientas de tools/ (Python 3.10 o superior).
+#   pip install -r requirements.txt
+pygame>=2.5      # fake_wheel.py: ventana, teclado y gamepad
+pyserial>=3.5    # serial_bridge.py: puerto serie del ESP32

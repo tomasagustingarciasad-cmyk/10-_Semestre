@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="TyreCompound" format=3]
+
+[ext_resource type="Script" path="res://scripts/car/tyre_compound.gd" id="1_lwkvb"]
+
+[resource]
+script = ExtResource("1_lwkvb")
+id = "intermedio"
+display_name = "Intermedio"
+letter = "I"
+color = Color(0.2, 0.75, 0.3, 1)
+grip_dry = 0.88
+grip_wet = 0.8
+wear_dry = 2.5
+aquaplaning_start_kmh = 230.0
+aquaplaning_full_kmh = 290.0

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="TyreCompound" format=3]
+
+[ext_resource type="Script" path="res://scripts/car/tyre_compound.gd" id="1_fjqcj"]
+
+[resource]
+script = ExtResource("1_fjqcj")
+id = "medio"
+display_name = "Medio"
+color = Color(0.95, 0.8, 0.1, 1)

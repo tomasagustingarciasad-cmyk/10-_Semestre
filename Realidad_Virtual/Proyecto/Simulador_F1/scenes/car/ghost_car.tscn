@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/car/ghost_car.gd" id="1_4gs16"]
+[ext_resource type="PackedScene" path="res://scenes/car/car_model.tscn" id="2_tc5o0"]
+[ext_resource type="Script" path="res://scripts/car/car_visual.gd" id="3_kjdkd"]
+
+[node name="Fantasma" type="Node3D" unique_id=356193595]
+script = ExtResource("1_4gs16")
+
+[node name="Modelo" type="Node3D" parent="." unique_id=343206294 instance=ExtResource("2_tc5o0")]
+script = ExtResource("3_kjdkd")

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CarSetup" format=3 uid="uid://b0utf3w2k42ky"]
+
+[ext_resource type="Script" uid="uid://b3w8r5nr7qmm2" path="res://scripts/car/car_setup.gd" id="1_3ikrq"]
+
+[sub_resource type="Curve" id="Curve_nhh3i"]
+_data = [Vector2(0, 0.5), 0.0, 0.0, 0, 0, Vector2(0.33, 0.7), 0.0, 0.0, 0, 0, Vector2(0.6, 0.92), 0.0, 0.0, 0, 0, Vector2(0.8, 1), 0.0, 0.0, 0, 0, Vector2(0.92, 0.97), 0.0, 0.0, 0, 0, Vector2(1, 0.88), 0.0, 0.0, 0, 0]
+point_count = 6
+
+[resource]
+script = ExtResource("1_3ikrq")
+torque_curve = SubResource("Curve_nhh3i")

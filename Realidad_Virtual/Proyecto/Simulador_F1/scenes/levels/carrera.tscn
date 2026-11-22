@@ -1,0 +1,128 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/race/race_session.gd" id="1_b3h4a"]
+[ext_resource type="Script" path="res://scripts/track/weather.gd" id="2_lb4aq"]
+[ext_resource type="PackedScene" path="res://scenes/car/f1_car.tscn" id="3_svk20"]
+[ext_resource type="Script" path="res://scripts/car/f1_car.gd" id="4_ke730"]
+[ext_resource type="Resource" path="res://assets/setups/car_setup_default.tres" id="5_mokjv"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hud.tscn" id="6_vrppb"]
+[ext_resource type="Script" path="res://scripts/ui/hud.gd" id="7_nsc61"]
+[ext_resource type="PackedScene" path="res://scenes/ui/pause_menu.tscn" id="8_3e3p5"]
+[ext_resource type="Script" path="res://scripts/ui/pause_menu.gd" id="9_ywrom"]
+[ext_resource type="PackedScene" path="res://scenes/car/rival_car.tscn" id="10_dg1l0"]
+[ext_resource type="Script" path="res://scripts/car/ai_car.gd" id="11_g7edj"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_finum"]
+
+[sub_resource type="Sky" id="Sky_g4osh"]
+sky_material = SubResource("ProceduralSkyMaterial_finum")
+
+[sub_resource type="Environment" id="Environment_pec3k"]
+background_mode = 2
+sky = SubResource("Sky_g4osh")
+ambient_light_source = 3
+tonemap_mode = 2
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_kyjpm"]
+emission_shape = 3
+emission_box_extents = Vector3(22, 1, 22)
+direction = Vector3(0, -1, 0)
+spread = 2.0
+initial_velocity_min = 22.0
+initial_velocity_max = 26.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d820s"]
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+albedo_color = Color(0.8, 0.86, 0.95, 0.45)
+
+[sub_resource type="QuadMesh" id="QuadMesh_ak6s5"]
+material = SubResource("StandardMaterial3D_d820s")
+size = Vector2(0.03, 0.8)
+
+[node name="Carrera" type="Node3D" unique_id=1714168404]
+script = ExtResource("1_b3h4a")
+
+[node name="Ambiente" type="WorldEnvironment" parent="." unique_id=24914101]
+environment = SubResource("Environment_pec3k")
+
+[node name="Sol" type="DirectionalLight3D" parent="." unique_id=1243608847]
+transform = Transform3D(0.81915206, 0.45198438, -0.35312894, 0, 0.6156615, 0.7880107, 0.57357645, -0.6455006, 0.5043204, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 180.0
+
+[node name="Clima" type="Node3D" parent="." unique_id=1759945251]
+script = ExtResource("2_lb4aq")
+
+[node name="Lluvia" type="GPUParticles3D" parent="Clima" unique_id=48255296]
+cast_shadow = 0
+emitting = false
+amount = 3500
+lifetime = 0.8
+preprocess = 0.8
+visibility_aabb = AABB(-40, -40, -40, 80, 80, 80)
+local_coords = true
+transform_align = 3
+process_material = SubResource("ParticleProcessMaterial_kyjpm")
+draw_pass_1 = SubResource("QuadMesh_ak6s5")
+
+[node name="Auto" type="VehicleBody3D" parent="." unique_id=2109108977 instance=ExtResource("3_svk20")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+collision_layer = 2
+collision_mask = 5
+can_sleep = false
+continuous_cd = true
+script = ExtResource("4_ke730")
+setup = ExtResource("5_mokjv")
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=759446141 instance=ExtResource("6_vrppb")]
+script = ExtResource("7_nsc61")
+
+[node name="MenuPausa" type="CanvasLayer" parent="." unique_id=636869935 instance=ExtResource("8_3e3p5")]
+script = ExtResource("9_ywrom")
+
+[node name="Rivales" type="Node3D" parent="." unique_id=324396585]
+
+[node name="Rival1" type="AnimatableBody3D" parent="Rivales" unique_id=1232236095 instance=ExtResource("10_dg1l0")]
+collision_layer = 4
+collision_mask = 0
+sync_to_physics = false
+script = ExtResource("11_g7edj")
+driver_name = "Rival Rojo"
+secondary_color = Color(0.95, 0.95, 0.95, 1)
+skill = 0.96
+lane = -2.6
+
+[node name="Rival2" type="AnimatableBody3D" parent="Rivales" unique_id=1573587670 instance=ExtResource("10_dg1l0")]
+collision_layer = 4
+collision_mask = 0
+sync_to_physics = false
+script = ExtResource("11_g7edj")
+driver_name = "Rival Verde"
+primary_color = Color(0.1, 0.55, 0.2, 1)
+secondary_color = Color(0.08, 0.08, 0.08, 1)
+skill = 0.94
+lane = 2.6
+
+[node name="Rival3" type="AnimatableBody3D" parent="Rivales" unique_id=1432317286 instance=ExtResource("10_dg1l0")]
+collision_layer = 4
+collision_mask = 0
+sync_to_physics = false
+script = ExtResource("11_g7edj")
+driver_name = "Rival Naranja"
+primary_color = Color(0.95, 0.45, 0.05, 1)
+secondary_color = Color(0.1, 0.1, 0.1, 1)
+skill = 0.92
+lane = -1.2
+
+[node name="Rival4" type="AnimatableBody3D" parent="Rivales" unique_id=1568589023 instance=ExtResource("10_dg1l0")]
+collision_layer = 4
+collision_mask = 0
+sync_to_physics = false
+script = ExtResource("11_g7edj")
+driver_name = "Rival Blanco"
+primary_color = Color(0.9, 0.9, 0.9, 1)
+secondary_color = Color(0.1, 0.3, 0.8, 1)
+skill = 0.9
+lane = 1.2
