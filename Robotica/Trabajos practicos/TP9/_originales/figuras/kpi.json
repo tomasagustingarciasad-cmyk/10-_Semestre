@@ -1,0 +1,44 @@
+{
+  "A": {
+    "T_media": 7.3,
+    "T_min": 2.8,
+    "biogas_L_dia": 112,
+    "biogas_total_m3": 6.8,
+    "pH_min": 5.72,
+    "cocina_min_dia": 19,
+    "e_res_kwh_dia": 0.0,
+    "e_sol_kwh_dia": 0.0,
+    "riego_L_total": 0,
+    "dias_sin_cocina_post10": 0
+  },
+  "B": {
+    "T_media": 9.8,
+    "T_min": 7.3,
+    "biogas_L_dia": 136,
+    "biogas_total_m3": 9.6,
+    "pH_min": 5.75,
+    "cocina_min_dia": 23,
+    "e_res_kwh_dia": 0.0,
+    "e_sol_kwh_dia": 0.0,
+    "riego_L_total": 0,
+    "dias_sin_cocina_post10": 0
+  },
+  "C": {
+    "T_media": 33.1,
+    "T_min": 30.0,
+    "biogas_L_dia": 502,
+    "biogas_total_m3": 30.0,
+    "pH_min": 6.71,
+    "cocina_min_dia": 84,
+    "e_res_kwh_dia": 0.76,
+    "e_sol_kwh_dia": 1.2,
+    "riego_L_total": 800,
+    "dias_sin_cocina_post10": 0
+  },
+  "params": {
+    "SV_in_kg_d": 0.886,
+    "Q_in_L_d": 12.0,
+    "TRH_d": 66.7,
+    "VCO_kgSV_m3d": 1.11
+  }
+}

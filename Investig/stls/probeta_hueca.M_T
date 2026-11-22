@@ -1,0 +1,46 @@
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=TOMAS-GARCIA;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=Windows NT;
+OS_RELEASE=6.2;
+FRU=Unigraphics Solutions;
+APPL=SolidEdge;
+SITE=Huntsville, AL;
+USER=tomas
+FORMAT=text;
+GUISE=mesh;
+KEY=D:\Facu\10-_Semestre\10-_Semestre\Investig\stls\probeta_hueca;
+FILE=D:\Facu\10-_Semestre\10-_Semestre\Investig\stls\probeta_hueca.M_T;
+DATE=dom, nov 08 26;
+**PART2;
+SCH=SCH_3800150_37102;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+T47 : MESH FILE created by modeller version 380015023 SCH_3800150_37102_13006239
+ 0 74 4 CI16 index_map_offset0 0 1 dCCZ2 1 2 0 0 2 3 189 8 8 PSM_MESH8 PSM Mesh9
+ precision0 0 1 u5 owner201 0 13 position_pool193 0 11 normal_pool193 0 16 posit
+ion_indices191 0 11 normal_type0 0 1 u14 normal_indices191 0 5 combs1042 1 T0 2
+ 1 0 4 0 5 1 0 189 0 3 1 0 6 0 7 1 0 193 5 11 VECTOR_COMB11 Vector Comb8 encodin
+g0 0 1 u9 n_vectors0 0 1 d13 n_max_vectors0 0 1 d5 shift0 0 1 d5 teeth192 1 T16
+ 6 1 8 16 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 191 6 12 INTEGER_COMB12 Integer Comb
+8 encoding0 0 1 u10 n_integers0 0 1 d14 n_max_integers0 0 1 d18 n_bits_per_integ
+er0 0 1 d5 shift0 0 1 d5 teeth190 1 T16 7 1 36 48 32 4 9 10 11 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 190 1 13 INTEGER_TOOTH13 Integer Tooth6 values0 1 1 dT16 9 1 2 3 2 4 3
+ 5 2 1 5 6 2 2 6 4 3 190 16 10 7 1 3 4 7 8 5 1 6 5 8 1 7 8 4 6 190 16 11 7 7 6 8
+ 0 0 0 0 0 0 0 0 0 0 0 0 192 1 12 VECTOR_TOOTH12 Vector Tooth6 values0 1 1 fT48
+ 8 0 .00625 .01269999980926514 0 0 0 0 0 .01269999980926514 .15 0 0 0 .00625 0 .
+15 .00625 0 .15 0 .01269999980926514 .15 .00625 .01269999980926514 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 16 4 1 8 16 4 12 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 191 16 5 1 36 48 32 4 13 14 15 0 0 0 0 0 0 0 0 0 0 0 0 0 190 16 13 1 2 3
+ 1 4 2 3 2 5 2 6 5 4 6 2 3 190 16 14 7 1 7 4 1 5 8 3 6 8 5 8 7 3 7 6 190 16 15 4
+ 8 6 7 0 0 0 0 0 0 0 0 0 0 0 0 192 48 12 .001200000047683716 .001200000047683716
+ .0115 .001200000047683716 .001200000047683716 .001200000047683716 .001200000047
+683716 .00505000019073486 .0115 .1488000030517578 .001200000047683716 .001200000
+047683716 .001200000047683716 .00505000019073486 .001200000047683716 .1488000030
+517578 .00505000019073486 .001200000047683716 .1488000030517578 .001200000047683
+716 .0115 .1488000030517578 .00505000019073486 .0115 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 1 0 
